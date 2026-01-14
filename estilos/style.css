@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    height: 96vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -55,4 +55,8 @@ section#redes-sociais img:hover {
     transform: translate(9px);
     box-shadow: 5px 5px 10px black;
     transition: transform .4s, border 1s;
+}
+
+section#redes-sociais img:active {
+    transform: scale(95%);
 }

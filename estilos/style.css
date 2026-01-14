@@ -10,6 +10,7 @@ html, body {
     height: 100dvh;
     width: 100dvw;
     background-color: black;
+    overflow: hidden;
 }
 
 body {
@@ -25,7 +26,7 @@ main {
 
 section#telefone {
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
@@ -67,5 +68,5 @@ section#redes-sociais img:visited {
 section#redes-sociais {
     position: relative;
     text-align: center;
-    top: 75%;
+    top: 79%;
 }

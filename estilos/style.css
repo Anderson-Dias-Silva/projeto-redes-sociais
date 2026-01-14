@@ -7,7 +7,7 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 99vh;
     width: 100vw;
     background-color: black;
 }
@@ -25,7 +25,7 @@ main {
 
 section#telefone {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 627px;
@@ -51,7 +51,7 @@ section#redes-sociais img {
 
 section#redes-sociais img:hover {
     border: 2px solid white;
-    transform: translateY(8px);
+    transform: translateY(-8px);
     box-shadow: 5px 5px 10px black;
     transition: transform .4s, border 1s;
 }
@@ -61,5 +61,7 @@ section#redes-sociais img:active {
 }
 
 section#redes-sociais {
+    position: relative;
     text-align: center;
+    top: 70%;
 }
